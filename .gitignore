@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database vettoriale locale (dati generati, non serve versionarli)
+data/chromadb/
+chroma.sqlite3
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+.venv/
+# Modelli scaricati in locale
+modelli/
+
+# File caricati dagli utenti in Chainlit
+.files/
+
+# Cache e log
+.pytest_cache/
+.mypy_cache/
+*.log
